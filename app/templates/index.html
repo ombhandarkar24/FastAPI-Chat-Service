@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Chat Interface</title>
+</head>
+<body>
+    <h1>Chat with Your Content</h1>
+    <form action="/api/chat" method="post">
+        <input type="text" name="chat_id" placeholder="Chat ID" required />
+        <input type="text" name="question" placeholder="Your Question" required />
+        <button type="submit">Ask</button>
+    </form>
+</body>
+</html>
